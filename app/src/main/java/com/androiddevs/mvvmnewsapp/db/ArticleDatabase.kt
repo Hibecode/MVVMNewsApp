@@ -2,8 +2,7 @@ package com.androiddevs.mvvmnewsapp.db
 
 import android.content.Context
 import androidx.room.*
-import com.androiddevs.mvvmnewsapp.ui.Article
-import java.security.AccessControlContext
+import com.androiddevs.mvvmnewsapp.models.Article
 
 
 @Database(
