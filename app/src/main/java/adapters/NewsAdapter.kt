@@ -45,6 +45,7 @@ class NewsAdapter : RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>() {
             tvDescription.text = article.description
 
             setOnItemClickListener {
+                //If onItemClickListener is non-null return it with current article
                 onItemClickListener?.let { it(article) }
             }
         }
