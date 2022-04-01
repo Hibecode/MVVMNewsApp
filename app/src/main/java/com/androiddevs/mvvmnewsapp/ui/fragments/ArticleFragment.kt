@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.fragment_article.*
 class ArticleFragment: Fragment(R.layout.fragment_article) {
 
     lateinit var viewModel: NewsViewModel
-    var args: ArticleFragmentArgs by navArgs()
+    val args: ArticleFragmentArgs by navArgs()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -27,3 +27,5 @@ class ArticleFragment: Fragment(R.layout.fragment_article) {
 
 
 }
+
+
